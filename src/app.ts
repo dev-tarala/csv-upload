@@ -10,7 +10,6 @@ const fs = require('fs');           // File system module for file operations
 const csv = require('csv-parser');  // CSV parser library to parse CSV content
 const path = require('path');       // Path module for handling file paths
 
-// Define the path to the CSV file relative to the current file location
 const filePath = path.join(__dirname, '../data/demo.csv');
 
 /**
